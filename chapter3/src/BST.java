@@ -35,6 +35,24 @@ public class BST <Key extends Comparable<Key>, Value>{
         return get(root, key);
     }
 
+    private Node min(Node x){
+        if(x.left == null) return x;
+        return min(x.left);
+    }
+
+    public Key min(){
+        return min(root).key;
+    }
+
+    private Node max(Node x){
+        if(x.right == null) return x;
+        return min(x.right);
+    }
+
+    public Key max(){
+        return max(root).key;
+    }
+
     public void put(Key key, Value val){
         root = put(root, key, val);
     }
