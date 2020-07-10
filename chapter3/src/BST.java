@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Queue;
+
 public class BST <Key extends Comparable<Key>, Value>{
     private Node root;
 
@@ -103,6 +105,23 @@ public class BST <Key extends Comparable<Key>, Value>{
 
     public void delete(Key key){
         root = delete(root, key);
+    }
+
+    public Iterable<Key> keys(){
+        return keys(min(), max());
+    }
+
+    public Iterable<Key> keys(Key lo, Key hi){
+        return keys(lo, hi);
+    }
+
+    private void keys(Node x, Queue<Key> queue, Key lo, Key hi){
+        if(x == null) return;
+        int cmplo = lo.compareTo(x.key);
+        int cmphi = hi.compareTo(x.key);
+        if(cmplo < 0) keys(x.left, queue, lo, hi);
+        if(cmplo <= 0 && cmphi >= 0) queue.enqueue(x.key);
+        if(cmphi > 0)  keys(x.right, queue, lo, hi);
     }
 
     private Node delete(Node x, Key key){
