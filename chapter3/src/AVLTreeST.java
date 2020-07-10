@@ -187,7 +187,9 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     }
 
     public Key ceiling(Key key){
-        return ceiling(root, key).key;
+        Node x = ceiling(root, key);
+        if(x == null) return null;
+        return x.key;
     }
 
     private Node ceiling(Node x, Key key){
@@ -201,7 +203,9 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     }
 
     public Key floor(Key key){
-        return floor(root, key).key;
+        Node x = floor(root, key);
+        if(x == null) return null;
+        else return x.key;
     }
 
     public Iterable<Key> keys(Key lo, Key hi){
