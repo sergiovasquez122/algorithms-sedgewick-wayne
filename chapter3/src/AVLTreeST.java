@@ -206,7 +206,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
 
     public Iterable<Key> keys(Key lo, Key hi){
         Queue<Key> queue = new Queue<>();
-        keys(root, lo, hi, queue)
+        keys(root, lo, hi, queue);
         return queue;
     }
 
@@ -226,6 +226,36 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         if(cmp < 0) return floor(x.left, key);
         Node t = floor(x.right, key);
         if(t != null) return t;
+        return x;
+    }
+
+    private Node leftRotate(Node x){
+        Node y = x.right;
+        x.right = y.left;
+        y.left = x;
+        x.size = size(x.left) + size(x.right) + 1;
+        y.size = size(y.left) + size(y.right) + 1;
+        x.height = 1 + Math.max(height(x.left), height(x.right));
+        y.height = 1 + Math.max(height(y.left), height(y.right));
+        return y;
+    }
+
+    private int balanceFactor(Node x){
+        return height(x.left) - height(x.right);
+    }
+
+    private Node rotateRight(Node x){
+        Node y = x.left;
+        x.left = y.right;
+        y.right = x;
+        x.size = size(x.left) + size(x.right) + 1;
+        y.size = size(y.left) + size(y.right) + 1;
+        x.height = 1 + Math.max(height(x.left), height(x.right));
+        y.height = 1 + Math.max(height(y.left), height(y.right));
+        return y;
+    }
+
+    private Node rightRotate(Node x){
         return x;
     }
 }

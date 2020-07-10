@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="AVLTreeST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="195">
+              <caret line="242" column="12" selection-start-line="242" selection-start-column="12" selection-end-line="242" selection-end-column="12" />
               <folding>
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
@@ -55,6 +57,8 @@
                 <element signature="e#4759#4760#0" expanded="true" />
                 <element signature="e#4734#4735#0" expanded="true" />
                 <element signature="e#4768#4769#0" expanded="true" />
+                <element signature="e#6215#6216#0" expanded="true" />
+                <element signature="e#6234#6235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +185,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="652" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24880382" />
@@ -222,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="195">
+          <caret line="242" column="12" selection-start-line="242" selection-start-column="12" selection-end-line="242" selection-end-column="12" />
           <folding>
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
@@ -253,6 +258,8 @@
             <element signature="e#4759#4760#0" expanded="true" />
             <element signature="e#4734#4735#0" expanded="true" />
             <element signature="e#4768#4769#0" expanded="true" />
+            <element signature="e#6215#6216#0" expanded="true" />
+            <element signature="e#6234#6235#0" expanded="true" />
           </folding>
         </state>
       </provider>
