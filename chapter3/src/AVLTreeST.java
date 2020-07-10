@@ -204,6 +204,21 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         return floor(root, key).key;
     }
 
+    public Iterable<Key> keys(Key lo, Key hi){
+        Queue<Key> queue = new Queue<>();
+        keys(root, lo, hi, queue)
+        return queue;
+    }
+
+    private void keys(Node x, Key lo, Key hi, Queue<Key> queue){
+        if(x == null) return;
+        int cmplo = lo.compareTo(x.key);
+        int cmphi = hi.compareTo(x.key);
+        if(cmplo < 0) keys(x.left, lo, hi, queue);
+        if(cmplo <= 0 && cmphi >= 0) queue.enqueue(x.key);
+        if(cmphi > 0) keys(x.right, lo, hi, queue);
+    }
+
     private Node floor(Node x, Key key){
         if(x == null) return null;
         int cmp = key.compareTo(x.key);

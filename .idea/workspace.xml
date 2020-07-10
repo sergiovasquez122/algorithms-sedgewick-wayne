@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" afterDir="false" />
-    </list>
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="AVLTreeST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
@@ -224,8 +222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
