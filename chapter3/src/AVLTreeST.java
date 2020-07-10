@@ -80,4 +80,16 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     public boolean isEmpty(){
         return root == null;
     }
+
+    private Node deleteMin(Node x){
+        if(x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        return x;
+    }
+
+    private Node deleteMax(Node x){
+        if(x.right == null) return x.left;
+        x.right = deleteMax(x.right);
+        return x;
+    }
 }
