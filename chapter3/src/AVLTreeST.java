@@ -240,11 +240,17 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         return y;
     }
 
-    public Node rebalance(Node x){
-        // we are right heavy
+    public Node balance(Node x){
         if(balanceFactor(x) < -1){
-
+            if(balanceFactor(x.right) > 0){
+                x.right = rightRotate(x.right);
+            }
             x = leftRotate(x);
+        } else if(balanceFactor(x) > 1){
+            if(balanceFactor(x.left) < 0){
+                x.left = leftRotate(x.left);
+            }
+            x = rightRotate(x);
         }
         return x;
     }
@@ -253,7 +259,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         return height(x.left) - height(x.right);
     }
 
-    private Node rotateRight(Node x){
+    private Node rightRotate(Node x){
         Node y = x.left;
         x.left = y.right;
         y.right = x;
@@ -262,9 +268,5 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         x.height = 1 + Math.max(height(x.left), height(x.right));
         y.height = 1 + Math.max(height(y.left), height(y.right));
         return y;
-    }
-
-    private Node rightRotate(Node x){
-        return x;
     }
 }
