@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Queue;
+
 public class AVLTreeST<Key extends Comparable<Key>, Value> {
 
     private Node root;
@@ -122,4 +124,22 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     public void deleteMax(){
         root = deleteMax(root);
     }
+
+    public Iterable<Key> keys(){
+        return inorder();
+    }
+
+    public Iterable<Key> inorder(){
+        Queue<Key> queue = new Queue<>();
+        inorder(root, queue);
+        return queue;
+    }
+
+    private void inorder(Node x, Queue<Key> queue){
+        if(x == null) return;
+        inorder(x.left, queue);
+        queue.enqueue(x.key);
+        inorder(x.right, queue);
+    }
+
 }
