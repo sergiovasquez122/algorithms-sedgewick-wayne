@@ -92,4 +92,12 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         x.right = deleteMax(x.right);
         return x;
     }
+
+    public void deleteMin(){
+        root = deleteMin(root);
+    }
+
+    public void deleteMax(){
+        root = deleteMax(root);
+    }
 }
