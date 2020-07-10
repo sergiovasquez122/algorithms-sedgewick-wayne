@@ -166,7 +166,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     }
 
     public int rank(Key key){
-        return 0;
+        return rank(root, key);
     }
 
     private int rank(Node x, Key key){
