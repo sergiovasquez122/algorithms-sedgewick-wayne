@@ -70,7 +70,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     }
 
     private int height(Node x){
-        if(x == null) return 0;
+        if(x == null) return -1;
         else return x.height;
     }
 
@@ -238,6 +238,15 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         x.height = 1 + Math.max(height(x.left), height(x.right));
         y.height = 1 + Math.max(height(y.left), height(y.right));
         return y;
+    }
+
+    public Node rebalance(Node x){
+        // we are right heavy
+        if(balanceFactor(x) < -1){
+
+            x = leftRotate(x);
+        }
+        return x;
     }
 
     private int balanceFactor(Node x){
