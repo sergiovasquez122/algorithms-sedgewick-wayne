@@ -24,8 +24,8 @@
       <file leaf-file-name="AVLTreeST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="162" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="150">
+              <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
               <folding>
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
@@ -49,6 +49,10 @@
                 <element signature="e#3147#3148#0" expanded="true" />
                 <element signature="e#3511#3512#0" expanded="true" />
                 <element signature="e#3527#3528#0" expanded="true" />
+                <element signature="e#4089#4090#0" expanded="true" />
+                <element signature="e#4114#4115#0" expanded="true" />
+                <element signature="e#4158#4159#0" expanded="true" />
+                <element signature="e#4186#4187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,8 +220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="150">
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
           <folding>
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
@@ -241,6 +245,10 @@
             <element signature="e#3147#3148#0" expanded="true" />
             <element signature="e#3511#3512#0" expanded="true" />
             <element signature="e#3527#3528#0" expanded="true" />
+            <element signature="e#4089#4090#0" expanded="true" />
+            <element signature="e#4114#4115#0" expanded="true" />
+            <element signature="e#4158#4159#0" expanded="true" />
+            <element signature="e#4186#4187#0" expanded="true" />
           </folding>
         </state>
       </provider>
