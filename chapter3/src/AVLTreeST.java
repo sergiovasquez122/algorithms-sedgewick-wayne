@@ -108,12 +108,16 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     private Node deleteMin(Node x){
         if(x.left == null) return x.right;
         x.left = deleteMin(x.left);
+        x.size = 1 + size(x.left) + size(x.right);
+        x.height = 1 + Integer.max(height(x.left), height(x.right));
         return x;
     }
 
     private Node deleteMax(Node x){
         if(x.right == null) return x.left;
         x.right = deleteMax(x.right);
+        x.size = 1 + size(x.left) + size(x.right);
+        x.height = 1 + Integer.max(height(x.left), height(x.right));
         return x;
     }
 
@@ -128,6 +132,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     public Iterable<Key> keys(){
         return inorder();
     }
+
 
     public Iterable<Key> inorder(){
         Queue<Key> queue = new Queue<>();

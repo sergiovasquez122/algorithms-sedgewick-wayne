@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="AVLTreeST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
               <folding>
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
@@ -47,15 +49,12 @@
                 <element signature="e#2357#2358#0" expanded="true" />
                 <element signature="e#3121#3122#0" expanded="true" />
                 <element signature="e#3147#3148#0" expanded="true" />
-                <element signature="e#3511#3512#0" expanded="true" />
-                <element signature="e#3527#3528#0" expanded="true" />
                 <element signature="e#4089#4090#0" expanded="true" />
                 <element signature="e#4114#4115#0" expanded="true" />
                 <element signature="e#4158#4159#0" expanded="true" />
                 <element signature="e#4186#4187#0" expanded="true" />
-                <element signature="e#4763#4764#0" expanded="true" />
-                <element signature="e#4811#4812#0" expanded="true" />
-                <element signature="e#4830#4831#0" expanded="true" />
+                <element signature="e#4736#4737#0" expanded="true" />
+                <element signature="e#4759#4760#0" expanded="true" />
                 <element signature="e#4734#4735#0" expanded="true" />
                 <element signature="e#4768#4769#0" expanded="true" />
               </folding>
@@ -184,7 +183,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="652" height="744" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24880382" />
@@ -226,8 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
+        <state relative-caret-position="300">
+          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
           <folding>
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
@@ -249,15 +247,12 @@
             <element signature="e#2357#2358#0" expanded="true" />
             <element signature="e#3121#3122#0" expanded="true" />
             <element signature="e#3147#3148#0" expanded="true" />
-            <element signature="e#3511#3512#0" expanded="true" />
-            <element signature="e#3527#3528#0" expanded="true" />
             <element signature="e#4089#4090#0" expanded="true" />
             <element signature="e#4114#4115#0" expanded="true" />
             <element signature="e#4158#4159#0" expanded="true" />
             <element signature="e#4186#4187#0" expanded="true" />
-            <element signature="e#4763#4764#0" expanded="true" />
-            <element signature="e#4811#4812#0" expanded="true" />
-            <element signature="e#4830#4831#0" expanded="true" />
+            <element signature="e#4736#4737#0" expanded="true" />
+            <element signature="e#4759#4760#0" expanded="true" />
             <element signature="e#4734#4735#0" expanded="true" />
             <element signature="e#4768#4769#0" expanded="true" />
           </folding>
