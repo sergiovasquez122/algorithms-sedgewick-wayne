@@ -185,6 +185,14 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         else return x;
     }
 
+    public Key ceiling(Key key){
+        return null;
+    }
+
+    private Node ceiling(Node x, Key key){
+        return null;
+    }
+
     public Key floor(Key key){
         return floor(root, key).key;
     }
