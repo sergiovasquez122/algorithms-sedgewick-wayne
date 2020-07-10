@@ -76,4 +76,8 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         if(x.right != null) return max(x.right);
         else return x;
     }
+
+    public boolean isEmpty(){
+        return root == null;
+    }
 }
