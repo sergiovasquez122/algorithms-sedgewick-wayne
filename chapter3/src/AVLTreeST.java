@@ -40,7 +40,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         else x.val = val;
         x.size = size(x.left) + size(x.right) + 1;
         x.height = 1 + Integer.max(height(x.left), height(x.right));
-        return x;
+        return balance(x);
     }
 
     public void delete(Key key){
@@ -62,7 +62,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         }
         x.size = size(x.left) + size(x.right) + 1;
         x.height = 1 + Integer.max(height(x.left), height(x.right));
-        return x;
+        return balance(x);
     }
 
     public int height(){
@@ -110,7 +110,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         x.left = deleteMin(x.left);
         x.size = 1 + size(x.left) + size(x.right);
         x.height = 1 + Integer.max(height(x.left), height(x.right));
-        return x;
+        return balance(x);
     }
 
     private Node deleteMax(Node x){
@@ -118,7 +118,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         x.right = deleteMax(x.right);
         x.size = 1 + size(x.left) + size(x.right);
         x.height = 1 + Integer.max(height(x.left), height(x.right));
-        return x;
+        return balance(x);
     }
 
     public void deleteMin(){
