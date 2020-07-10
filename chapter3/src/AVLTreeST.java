@@ -142,4 +142,23 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         inorder(x.right, queue);
     }
 
+    public Iterable<Key>  levelOrder(){
+        Queue<Key> queue = new Queue<>();
+        Queue<Node> current_level = new Queue<>();
+        current_level.enqueue(root);
+        while(!current_level.isEmpty()){
+            Queue<Node> next_level = new Queue<>();
+            while(!current_level.isEmpty()){
+                Node x = current_level.dequeue();
+                if(x != null){
+                    queue.enqueue(x.key);
+                    next_level.enqueue(x.left);
+                    next_level.enqueue(x.right);
+                }
+            }
+            current_level = next_level;
+        }
+        return queue;
+    }
+
 }
