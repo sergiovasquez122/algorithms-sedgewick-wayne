@@ -36,7 +36,6 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         if(cmp < 0) x.left = insert(x.left, key, val);
         else if(cmp > 0) x.right = insert(x.right, key, val);
         else x.val = val;
-        // update values of height and size
         x.size = size(x.left) + size(x.right) + 1;
         x.height = 1 + Integer.max(height(x.left), height(x.right));
         return x;
@@ -58,5 +57,23 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     private int size(Node x){
         if(x == null) return 0;
         else return x.size;
+    }
+
+    public Key min(){
+        return min(root).key;
+    }
+
+    private Node min(Node x){
+        if(x.left != null) return min(x.left);
+        else return x;
+    }
+
+    public Key max(){
+        return max(root).key;
+    }
+
+    private Node max(Node x){
+        if(x.right != null) return max(x.right);
+        else return x;
     }
 }
