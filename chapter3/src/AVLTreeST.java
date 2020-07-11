@@ -1,4 +1,6 @@
 import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 public class AVLTreeST<Key extends Comparable<Key>, Value> {
 
@@ -21,7 +23,9 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
     }
 
     public Value get(Key key){
-        return get(root, key).val;
+        Node x = get(root, key);
+        if(x == null) return null;
+        return x.val;
     }
 
     private Node get(Node x, Key key){
@@ -32,15 +36,23 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         else return x;
     }
 
+    public boolean contains(Key key){
+        return get(key) != null;
+    }
+
     private Node insert(Node x, Key key, Value val){
         if(x == null) return new Node(key,val, 1, -1);
         int cmp = key.compareTo(x.key);
         if(cmp < 0) x.left = insert(x.left, key, val);
         else if(cmp > 0) x.right = insert(x.right, key, val);
-        else x.val = val;
+        else {x.val = val;return x;}
         x.size = size(x.left) + size(x.right) + 1;
         x.height = 1 + Integer.max(height(x.left), height(x.right));
         return balance(x);
+    }
+
+    public void put(Key key, Value val){
+        root = insert(root, key, val);
     }
 
     public void delete(Key key){
@@ -182,7 +194,7 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         if(x == null) return null;
         int t = size(x.left);
         if(t > k) return select(x.left, k);
-        else if(t < k) return select(x.right, t - k - 1);
+        else if(t < k) return select(x.right, k - t - 1);
         else return x;
     }
 
@@ -272,5 +284,19 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         x.height = 1 + Math.max(height(x.left), height(x.right));
         y.height = 1 + Math.max(height(y.left), height(y.right));
         return y;
+    }
+
+    public static void main(String[] args) {
+        AVLTreeST<String, Integer> st = new AVLTreeST<>();
+        int counter = 0;
+        while (!StdIn.isEmpty()) {
+            String line = StdIn.readString();
+            if(line.equals("") || line.equals("\n")) break;
+            st.put(line, counter++);
+        }
+
+        for(String s : st.keys())
+            StdOut.println(s + " " + st.get(s));
+        StdOut.println();
     }
 }
