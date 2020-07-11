@@ -285,18 +285,4 @@ public class AVLTreeST<Key extends Comparable<Key>, Value> {
         y.height = 1 + Math.max(height(y.left), height(y.right));
         return y;
     }
-
-    public static void main(String[] args) {
-        AVLTreeST<String, Integer> st = new AVLTreeST<>();
-        int counter = 0;
-        while (!StdIn.isEmpty()) {
-            String line = StdIn.readString();
-            if(line.equals("") || line.equals("\n")) break;
-            st.put(line, counter++);
-        }
-
-        for(String s : st.keys())
-            StdOut.println(s + " " + st.get(s));
-        StdOut.println();
-    }
 }
