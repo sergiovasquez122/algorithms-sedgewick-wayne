@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -70,13 +69,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreadthFirstPaths.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BreadthFirstPaths.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,19 +146,19 @@
         <option value="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" />
         <option value="$PROJECT_DIR$/chapter4/src/DepthFirstSearch.java" />
         <option value="$PROJECT_DIR$/chapter4/src/DepthFirstPaths.java" />
-        <option value="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" />
         <option value="$PROJECT_DIR$/chapter4/src/CC.java" />
         <option value="$PROJECT_DIR$/chapter4/src/Cycle.java" />
         <option value="$PROJECT_DIR$/chapter4/src/TwoColor.java" />
         <option value="$PROJECT_DIR$/chapter4/src/Graph.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="715" />
-    <option name="y" value="24" />
-    <option name="width" value="636" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="246" />
+    <option name="y" value="131" />
+    <option name="width" value="653" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,10 +210,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.BreadthFirstPaths">
     <configuration name="AVLTreeST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AVLTreeST" />
       <module name="chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BreadthFirstPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstPaths" />
+      <module name="chapter4" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -244,9 +252,11 @@
     <list>
       <item itemvalue="Application.AVLTreeST" />
       <item itemvalue="Application.Graph" />
+      <item itemvalue="Application.BreadthFirstPaths" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BreadthFirstPaths" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.AVLTreeST" />
       </list>
@@ -270,15 +280,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14402619" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34369886" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3437014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3437014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281493" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3281493" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,6 +355,10 @@
           <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -530,16 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/CC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -569,6 +573,20 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1093#1094#0" expanded="true" />
             <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>
