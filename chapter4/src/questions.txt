@@ -1,0 +1,12 @@
+4.1.14 Suppose you use a stack instead of a queue when running breadth-first search. Does it still compute shortest paths.
+No we show this with a counter-example. Suppose the undirected
+graph given below.
+
+1 - 2
+ \ /
+  0 (source)
+
+A breadth-first search would produce distances of integer value 1
+for both vertices 1 and 2. A dfs solution would produce one vertex of
+distance 1 and another of distance 2. This shows that dfs is not guaranteed to compute
+the shortest path in a graph.

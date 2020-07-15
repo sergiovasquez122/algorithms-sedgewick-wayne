@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AVLTreeST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3750">
-              <caret line="280" column="18" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7389#7390#0" expanded="true" />
-                <element signature="e#7444#7445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphProperties.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GraphProperties.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/GraphProperties.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -98,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelEdgeDetection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParallelEdgeDetection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#592#593#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
@@ -170,6 +156,7 @@
         <option value="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" />
         <option value="$PROJECT_DIR$/chapter4/src/GraphProperties.java" />
         <option value="$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/questions.md" />
       </list>
     </option>
   </component>
@@ -624,6 +611,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/questions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/GraphProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -640,17 +646,6 @@
             <element signature="e#1095#1096#0" expanded="true" />
             <element signature="e#1194#1195#0" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
