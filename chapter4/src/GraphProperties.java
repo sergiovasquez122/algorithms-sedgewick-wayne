@@ -8,6 +8,8 @@ public class GraphProperties {
     private int diameter = Integer.MIN_VALUE;
     private int radius = Integer.MAX_VALUE;
     private int center;
+    private int girth = Integer.MAX_VALUE;
+    
     GraphProperties(Graph G){
         BreadthFirstPaths[] bfs = new BreadthFirstPaths[G.V()];
         eccentricity = new int[G.V()];
@@ -40,6 +42,10 @@ public class GraphProperties {
 
     int center(){
         return center;
+    }
+
+    int girth(){
+        return girth;
     }
 
     public static void main(String[] args) {
