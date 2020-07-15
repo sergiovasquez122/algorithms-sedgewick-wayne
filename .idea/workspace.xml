@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/src/GraphProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/src/BST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AVLTreeST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,17 +61,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreadthFirstPaths.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BreadthFirstPaths.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="304">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#990#991#0" expanded="true" />
                 <element signature="e#1022#1023#0" expanded="true" />
                 <element signature="e#1057#1058#0" expanded="true" />
                 <element signature="e#1089#1090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphProperties.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/GraphProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,14 +163,15 @@
         <option value="$PROJECT_DIR$/chapter4/src/TwoColor.java" />
         <option value="$PROJECT_DIR$/chapter4/src/Graph.java" />
         <option value="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/GraphProperties.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="246" />
-    <option name="y" value="131" />
-    <option name="width" value="653" />
-    <option name="height" value="737" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="716" />
+    <option name="y" value="24" />
+    <option name="width" value="650" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -210,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BreadthFirstPaths">
+  <component name="RunManager" selected="Application.GraphProperties">
     <configuration name="AVLTreeST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AVLTreeST" />
       <module name="chapter3" />
@@ -223,6 +236,11 @@
     </configuration>
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph" />
+      <module name="chapter4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GraphProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphProperties" />
       <module name="chapter4" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -253,9 +271,11 @@
       <item itemvalue="Application.AVLTreeST" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.BreadthFirstPaths" />
+      <item itemvalue="Application.GraphProperties" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphProperties" />
         <item itemvalue="Application.BreadthFirstPaths" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.AVLTreeST" />
@@ -276,19 +296,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="24" width="636" height="744" extended-state="4" />
+    <frame x="716" y="24" width="650" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34369886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.336" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3437014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3422619" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3281493" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3281493" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,14 +599,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="304">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#990#991#0" expanded="true" />
             <element signature="e#1022#1023#0" expanded="true" />
             <element signature="e#1057#1058#0" expanded="true" />
             <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/GraphProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
           </folding>
         </state>
       </provider>
