@@ -2,25 +2,20 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class ParallelEdgeDetection {
     private int parallelEdges;
-    private boolean[] marked;
 
     public ParallelEdgeDetection(Graph G){
-        marked = new boolean[G.V()];
         parallelEdges = 0;
         for(int v = 0;v < G.V(); ++v){
-            dfs(G, v);
-        }
-    }
-
-    private void dfs(Graph G, int v){
-        marked[v] = true;
-        for(int w : G.adj(v)){
-            if(!marked[w]){
-                dfs(G, w);
-            } else if(v == w){
-                parallelEdges++;
+            boolean[] marked = new boolean[G.V()];
+            for(int w : G.adj(v)){
+                if(!marked[w]){
+                    marked[w] = true;
+                } else {
+                    parallelEdges++;
+                }
             }
         }
+        parallelEdges /= 2;
     }
 
     public int parallelEdges(){
