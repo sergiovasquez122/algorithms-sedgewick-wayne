@@ -18,6 +18,10 @@ stream constructor for the files tinyGex2.txt
 10 ->  [5, 3]
 11 -> [8, 7, 1]
 
+4.1.6 Consider the four-vertex graph with edges 0-1, 1-2, 2-3, and 3-0. Drawn an array of adjacency-list that could not
+have been built calling addEdge() for these edges no matter what order.
+
+
 4.1.14 Suppose you use a stack instead of a queue when running breadth-first search. Does it still compute shortest paths.
 No we show this with a counter-example. Suppose the undirected
 graph given below.
