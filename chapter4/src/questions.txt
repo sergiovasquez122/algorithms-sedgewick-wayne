@@ -26,12 +26,14 @@ have been built calling addEdge() for these edges no matter what order.
 3 -> [0, 2]
 
 4.1.12 what does the BFS tree tell us about the distance from v to w when neither is at the root?
+
 If both of the vertices are on different branches then it tells use there is path
 of length distTo[v] + distTo[w] to get from u to v. where the distTo array tells the
 distance of a vertex to the root. if they are on the same brance then the
 distance from v to w is the abs(dist[v] - dist[w]).
 
 4.1.14 Suppose you use a stack instead of a queue when running breadth-first search. Does it still compute shortest paths.
+
 No we show this with a counter-example. Suppose the undirected
 graph given below.
 
@@ -43,3 +45,7 @@ A breadth-first search would produce distances of integer value 1
 for both vertices 1 and 2. A dfs solution would produce one vertex of
 distance 1 and another of distance 2. This shows that dfs is not guaranteed to compute
 the shortest path in a graph.
+
+4.1.9 Show, in the style of figure on page 533, a detailed trace of the call dfs(0) for the
+the graph built by the Graph's input stream constructor for the file tinyGex2.txt.
+Also, draw the tree represented by edgeTo[].
