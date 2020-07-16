@@ -153,6 +153,12 @@ the tree represented by edgeTo[]
   /
  2
 
+
+4.1.11 Draw the tree represented by edgeTo[] after the call bfs(G, 0) in
+algorithm 4.2 for the graph by Graph's input stream constructor for the file tinyGex2.txt
+
+
+
 4.1.12 Prove that every connected graph has a vertex who removal
 will not disconnect the graph, and write a graph a dfs method that
 finds such a vertex.
@@ -185,3 +191,4 @@ every vertex in the graph since the graph is connected. We note then that any le
 be a candidate for removal in the graph G. to see this we note that ny leaf node has the property
 that every vertex adjacent to it has already been visited since if it hadn't the current vertex would not have
 been a leaf node. removing this vertex alongside all of its edges would not disconnect the graph.
+
