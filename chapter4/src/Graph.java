@@ -64,7 +64,7 @@ public class Graph {
         Graph graph2 = new Graph(graph);
 
         System.out.println(graph2);
-    }
+   }
 
     public Graph(In in){
         this(in.readInt());
@@ -90,6 +90,10 @@ public class Graph {
     public int E(){return E;}
 
     public void addEdge(int v, int w){
+        if(v == w || hasEdge(v, w)){
+            throw new IllegalArgumentException();
+        }
+
         adj[v].add(w);
         adj[w].add(v);
         E++;

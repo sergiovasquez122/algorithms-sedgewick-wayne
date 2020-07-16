@@ -2,6 +2,26 @@
 What is the minimum number of edges in a graph with V vertices, none of which are isolated?
 V * (V-1) / 2 and V - 1
 
+4.1.2 Draw, in the style of the figure in the text, the adjacency lists built by Graph's input
+stream constructor for the files tinyGex2.txt
+
+0 -> [6, 2, 5]
+1 -> [11, 4, 8]
+2 -> [0, 6, 3, 5]
+3 -> [10, 2, 6]
+4 -> [8, 1]
+5 -> [0, 2, 10]
+6 -> [0, 2, 3]
+7 -> [8, 11]
+8 -> [4, 7, 11, 1]
+9 -> []
+10 ->  [5, 3]
+11 -> [8, 7, 1]
+
+4.1.6 Consider the four-vertex graph with edges 0-1, 1-2, 2-3, and 3-0. Drawn an array of adjacency-list that could not
+have been built calling addEdge() for these edges no matter what order.
+
+
 4.1.14 Suppose you use a stack instead of a queue when running breadth-first search. Does it still compute shortest paths.
 No we show this with a counter-example. Suppose the undirected
 graph given below.
