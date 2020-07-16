@@ -204,14 +204,18 @@ tinyGex2.txt
 for finding a cycle in the graph built by Graph's input stream constructor for the file
 tinyGex2.txt. What is the order of growth of the running time of the cycle constructor in the worst case?
 
+the order of growth is O(|V| + |E|) since it uses dfs as its main routine.
+
 4.1.21 Show, in the syle of the figures in this section, a detailed trace fo TwoColor for finding
 a two-coloring of the graph built by Graph's input stream constructor for the file tinyGex2.txt. What is the order of growth
 of the running time of the TwoColor constructor, in the worst case?
 
+the order of grow is O(|V| + |E|) since it uses bfs as its main routine.
+
 4.1.22 Run SymbolGraph with movies.txt to find the Kevin Bacon Number of this year's
 Oscars nominees
 
-4.1.23 Write a program BaconHistoGram tha tprints a histogram of Kevin Bacon numbers, indicating how many performers from movies.txt
+4.1.23 Write a program BaconHistoGram that prints a histogram of Kevin Bacon numbers, indicating how many performers from movies.txt
 have a Bacon number of 0, 1, 2, 3 ... . Include a category for those who have an infinite number.
 
 4.1.24 Compute the number the of connected components in movies.txt the size of the largest component and teh number of components
