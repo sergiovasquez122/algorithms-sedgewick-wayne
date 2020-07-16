@@ -157,7 +157,11 @@ the tree represented by edgeTo[]
 4.1.11 Draw the tree represented by edgeTo[] after the call bfs(G, 0) in
 algorithm 4.2 for the graph by Graph's input stream constructor for the file tinyGex2.txt
 
-
+    0
+   /|\
+  5  2  6
+ /   /
+10   3
 
 4.1.12 Prove that every connected graph has a vertex who removal
 will not disconnect the graph, and write a graph a dfs method that
