@@ -140,6 +140,7 @@ marked[]  adj[]
 10|T      10| 5 3
 11|       11|8 7 1
 
+the tree represented by edgeTo[]
            0
           /
          5
@@ -151,3 +152,5 @@ marked[]  adj[]
    6
   /
  2
+
+
