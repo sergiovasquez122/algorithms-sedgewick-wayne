@@ -116,10 +116,6 @@ public class Graph {
     public int E(){return E;}
 
     public void addEdge(int v, int w){
-        if(v == w || hasEdge(v, w)){
-            throw new IllegalArgumentException();
-        }
-
         adj[v].add(w);
         adj[w].add(v);
         E++;

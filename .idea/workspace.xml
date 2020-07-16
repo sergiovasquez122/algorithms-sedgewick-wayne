@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter4/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/src/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/questions.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="140">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
@@ -59,11 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="questions.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="194">
+              <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tinyGex2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter4/tinyGex2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -80,8 +92,8 @@
       <file leaf-file-name="TestClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/TestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,15 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/Cycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -148,8 +151,8 @@
         <option value="$PROJECT_DIR$/chapter4/tinyGex2.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java" />
         <option value="$PROJECT_DIR$/chapter4/src/GraphProperties.java" />
-        <option value="$PROJECT_DIR$/chapter4/src/questions.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/Graph.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/questions.txt" />
       </list>
     </option>
   </component>
@@ -209,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.TestClient">
     <configuration name="BreadthFirstPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BreadthFirstPaths" />
       <module name="chapter4" />
@@ -269,9 +272,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.GraphProperties" />
-        <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.ParallelEdgeDetection" />
         <item itemvalue="Application.BreadthFirstPaths" />
       </list>
@@ -292,26 +295,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33546326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33546326" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970452" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3763608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3764881" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970452" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -610,13 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/questions.md" />
     <entry file="file://$PROJECT_DIR$/chapter4/src/Questions.md" />
-    <entry file="file://$PROJECT_DIR$/chapter4/tinyGex2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/Cycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -648,20 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/TestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/GraphProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -688,13 +671,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="140">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/tinyGex2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
         </state>
       </provider>
     </entry>
