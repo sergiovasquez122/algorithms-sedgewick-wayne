@@ -1,4 +1,3 @@
-import edu.princeton.cs.algs4.Edge;
 import edu.princeton.cs.algs4.StdOut;
 
 public class EdgeRemoval {

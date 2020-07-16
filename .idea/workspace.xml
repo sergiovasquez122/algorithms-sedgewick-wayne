@@ -73,10 +73,8 @@
       <file leaf-file-name="EdgeRemoval.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/EdgeRemoval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+            <state>
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#540#541#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
                 <element signature="e#540#541#0" expanded="true" />
@@ -164,7 +162,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
+    <option name="x" value="715" />
     <option name="y" value="24" />
     <option name="width" value="651" />
     <option name="height" value="744" />
@@ -301,8 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="651" height="744" extended-state="4" />
-    <editor active="true" />
+    <frame x="715" y="24" width="651" height="744" extended-state="4" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33546326" />
@@ -311,9 +308,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3763608" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36011904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32970452" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3437014" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -699,10 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/EdgeRemoval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />
