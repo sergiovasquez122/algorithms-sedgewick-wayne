@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter4/src/EdgeRemoval.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/EdgeRemoval.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,11 +61,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="questions.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
               <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdgeRemoval.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/EdgeRemoval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelEdgeDetection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -150,6 +159,7 @@
         <option value="$PROJECT_DIR$/chapter4/src/GraphProperties.java" />
         <option value="$PROJECT_DIR$/chapter4/src/Graph.java" />
         <option value="$PROJECT_DIR$/chapter4/src/questions.txt" />
+        <option value="$PROJECT_DIR$/chapter4/src/EdgeRemoval.java" />
       </list>
     </option>
   </component>
@@ -209,9 +219,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClient">
-    <configuration name="BreadthFirstPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BreadthFirstPaths" />
+  <component name="RunManager" selected="Application.EdgeRemoval">
+    <configuration name="EdgeRemoval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EdgeRemoval" />
       <module name="chapter4" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -262,18 +272,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Graph" />
-      <item itemvalue="Application.BreadthFirstPaths" />
       <item itemvalue="Application.GraphProperties" />
       <item itemvalue="Application.ParallelEdgeDetection" />
       <item itemvalue="Application.TestClient" />
+      <item itemvalue="Application.EdgeRemoval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EdgeRemoval" />
         <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.GraphProperties" />
         <item itemvalue="Application.ParallelEdgeDetection" />
-        <item itemvalue="Application.BreadthFirstPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +302,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33546326" />
@@ -323,18 +334,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter4/src/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -695,6 +694,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/EdgeRemoval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
