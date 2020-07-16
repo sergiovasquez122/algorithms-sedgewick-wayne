@@ -49,36 +49,39 @@ public class Graph_15 {
     }
 
     public static void main(String[] args) {
-        Graph graph = new Graph(5);
-        graph.addEdge(0, 1);
-        graph.addEdge(0, 2);
-        graph.addEdge(0, 3);
-        graph.addEdge(1, 2);
-        graph.addEdge(1, 4);
-        graph.addEdge(2, 3);
+        Graph_15 G = new Graph_15(new In(args[0]));
 
-        StdOut.println(graph);
+        StdOut.println(G);
 
         StdOut.println("Expected:\n" +
-                "0: 3 2 1\n" +
-                "1: 4 2 0\n" +
-                "2: 3 1 0\n" +
-                "3: 2 0\n" +
-                "4: 1\n");
-
-        Graph graph2 = new Graph(graph);
-
-        System.out.println(graph2);
+                "0: 6 5 2 1\n" +
+                "1: 0\n" +
+                "2: 0\n" +
+                "3: 5 4\n" +
+                "4: 6 5 3\n" +
+                "5: 4 3 0\n" +
+                "6: 4 0\n" +
+                "7: 8\n" +
+                "8: 7\n" +
+                "9: 12 11 10\n" +
+                "10: 9\n" +
+                "11: 12 9\n" +
+                "12: 11 9");
     }
 
     public Graph_15(In in) {
         this(in.readInt());
-        int E = in.readInt();
-        for (int i = 0; i < E; ++i) {
-            int v = in.readInt();
-            int w = in.readInt();
-            addEdge(v, w);
+        in.readLine();
+        while(in.hasNextLine()){
+            String[] vertices = in.readLine().split(" ");
+            String beginVertex = vertices[0].substring(0, vertices[0].length() - 1); // get rid of the :
+            int vertex = Integer.parseInt(beginVertex);
+            for(int i = vertices.length - 1;i >= 1;--i){
+                adj[vertex].add(Integer.parseInt(vertices[i]));
+                E++;
+            }
         }
+        E /= 2;
     }
 
     public boolean hasEdge(int v, int w) {
