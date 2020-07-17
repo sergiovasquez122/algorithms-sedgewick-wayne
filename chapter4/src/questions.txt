@@ -393,11 +393,11 @@ V  * 2^V
 cycle.
 
 Suppose a Graph G is bipartite. Since the graph is
-bipartite any steps takes you from the vertex set V1 to V2 or vice verse.
+bipartite any steps takes you from the vertex set V1 to V2 or vice versa.
 From this we conclude to end up where you started you must have an even number of steps.
 Hence a bipartite graph does not contain an odd-length cycle.
 
-conversely suppose that the graph contains no odd-length.
+conversely suppose that the graph contains no odd-length cycle.
 WLOG we suppose that the Graph G is connected. Let v0 be an
 arbitrary vertex in the graph G. for every vertex v in the
 graph G color the vertex blue if it is an even distance from v0
