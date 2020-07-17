@@ -384,4 +384,7 @@ but it does contains a hamilton cycle.
 Graph four does not contain a eulerian cycle but it does contain a hamilton
 cycle.
 
+4.1.31 How many different undirected graph are there with V
+vertices and E edges (and no parallel edges)?
+
 
