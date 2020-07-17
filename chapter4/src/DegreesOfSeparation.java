@@ -27,3 +27,43 @@ public class DegreesOfSeparation {
         }
     }
 }
+/*
+Phoenix, Joaquin
+ Bacon, Kevin
+ Woodsman, The (2004)
+ Majors, Paul
+ Ladder 49 (2004)
+ Phoenix, Joaquin
+Pryce, Jonathan
+ Bacon, Kevin
+ Where the Truth Lies (2005)
+ Firth, Colin
+ What a Girl Wants (2003)
+ Pryce, Jonathan
+Driver, Adam
+Not in database.
+Banderas, Antonio
+Not in database.
+DiCaprio, Leonardo
+ Bacon, Kevin
+ Trapped (2002)
+ Theron, Charlize
+ Celebrity (1998)
+ DiCaprio, Leonardo
+Erivo, Cynthia
+Not in database.
+Johansson, Scarlett
+ Bacon, Kevin
+ Where the Truth Lies (2005)
+ Bennett, Sonja
+ Perfect Score, The (2004)
+ Johansson, Scarlett
+Ronan, Saoirse
+Not in database.
+Theron, Charlize
+ Bacon, Kevin
+ Trapped (2002)
+ Theron, Charlize
+Zellweger, Renee
+Not in database.
+ */
