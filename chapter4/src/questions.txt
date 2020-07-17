@@ -388,3 +388,7 @@ cycle.
 vertices and E edges (and no parallel edges)?
 
 V  * 2^V
+
+4.1.33 Prove that a graph is bipartite if and only if it contains no odd-length
+cycle.
+
