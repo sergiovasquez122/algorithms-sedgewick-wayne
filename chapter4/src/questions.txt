@@ -404,6 +404,19 @@ o-o
 |x|
 o-o
 
+  o
+  |
+o-o-o
+
+   o
+  / \
+ o - o o
+
+ o
+/ \
+o-o
+\ /
+ o
 five vertices
 o o o o o
 o-o o o o
