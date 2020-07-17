@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/src/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/questions.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DegreesOfSeparationDFS.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DegreesOfSeparationDFS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="questions.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="370" selection-start-line="370" selection-end-line="370" />
+            <state relative-caret-position="302">
+              <caret line="367" column="4" selection-start-line="367" selection-start-column="4" selection-end-line="367" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -163,13 +163,13 @@
         <option value="$PROJECT_DIR$/chapter4/src/EdgeRemoval.java" />
         <option value="$PROJECT_DIR$/chapter4/tinyGadj.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/Graph_15.java" />
-        <option value="$PROJECT_DIR$/chapter4/src/questions.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/SymbolGraph.java" />
         <option value="$PROJECT_DIR$/chapter4/movies.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/DegreesOfSeparation.java" />
         <option value="$PROJECT_DIR$/chapter4/src/BaconHistogram.java" />
         <option value="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDfS.java" />
         <option value="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/questions.txt" />
       </list>
     </option>
   </component>
@@ -323,9 +323,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3437014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32886904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35714287" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3732504" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -651,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="370" selection-start-line="370" selection-end-line="370" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/TwoColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -733,11 +726,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="60">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="367" column="4" selection-start-line="367" selection-start-column="4" selection-end-line="367" selection-end-column="4" />
         </state>
       </provider>
     </entry>
