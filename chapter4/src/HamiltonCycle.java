@@ -44,9 +44,9 @@ public class HamiltonCycle {
     }
 
     private void helper(ArrayList<ArrayList<Integer>> result, int arr[], int beginIdx){
-        if(beginIdx == arr.length){
+        if(beginIdx == arr.length - 1){
             ArrayList<Integer> perm = new ArrayList<>();
-            for(int i = 0;i < perm.size();++i) {
+            for(int i = 0;i < arr.length;++i) {
                 perm.add(arr[i]);
             }
             result.add(perm);

@@ -372,8 +372,16 @@ set of edges:
 which of them graphs have euler cycles?
 which of them have hamilton cycles?
 
-Graph one does not contain a euler cycle, it does
-contain a hamilton cycle;
+Graph one does not contains an eulerian cycle but it
+does contains an hamilton cycle.
 
+Graph two does contain a euler cycle but it
+does not contains a hamilton cycle
+
+Graph three does not contain a euler cycle but it does contains
+but it does contains a hamilton cycle.
+
+Graph four does not contain a eulerian cycle but it does contain a hamilton
+cycle.
 
 

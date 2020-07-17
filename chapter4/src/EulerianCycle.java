@@ -37,8 +37,10 @@ public class EulerianCycle {
         G.addEdge(6, 7);
         G.addEdge(6, 9);
         G.addEdge(7, 8);
+        HamiltonCycle hc = new HamiltonCycle(G);
         EulerianCycle cycle = new EulerianCycle(G);
         StdOut.println(cycle.containsEulerianCycle());
+        StdOut.println(hc.hasHamiltonCycle());
 
         Graph G2 = new Graph(10);
         G2.addEdge(0, 1);
@@ -56,8 +58,10 @@ public class EulerianCycle {
         G2.addEdge(6, 7);
         G2.addEdge(6, 9);
         G2.addEdge(8, 8);
+        HamiltonCycle hc2 = new HamiltonCycle(G2);
         EulerianCycle cycle2 = new EulerianCycle(G2);
         StdOut.println(cycle2.containsEulerianCycle());
+        StdOut.println(hc2.hasHamiltonCycle());
 
         Graph G3 = new Graph(10);
         G3.addEdge(0, 1);
@@ -75,8 +79,10 @@ public class EulerianCycle {
         G3.addEdge(6, 7);
         G3.addEdge(6, 9);
         G3.addEdge(7, 8);
+        HamiltonCycle hc3 = new HamiltonCycle(G3);
         EulerianCycle cycle3 = new EulerianCycle(G3);
         StdOut.println(cycle3.containsEulerianCycle());
+        StdOut.println(hc3.hasHamiltonCycle());
 
 
         Graph G4 = new Graph(10);
@@ -95,7 +101,9 @@ public class EulerianCycle {
         G4.addEdge(9, 8);
         G4.addEdge(4, 5);
         G4.addEdge(4, 7);
+        HamiltonCycle hc4 = new HamiltonCycle(G4);
         EulerianCycle cycle4 = new EulerianCycle(G4);
         StdOut.println(cycle4.containsEulerianCycle());
+        StdOut.println(hc4.hasHamiltonCycle());
     }
 }
