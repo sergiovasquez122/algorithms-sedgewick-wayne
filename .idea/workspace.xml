@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GraphProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/GraphProperties.java">
+      <file leaf-file-name="BreadthFirstPaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="75">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +46,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DegreesOfSeparation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DegreesOfSeparation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/DegreesOfSeparation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="15">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaconHistogram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/BaconHistogram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthFirstPaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/DepthFirstPaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DegreesOfSeparationDFS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,42 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph_15.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/Graph_15.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2367#2368#0" expanded="true" />
-                <element signature="e#2391#2392#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
-                <element signature="e#2569#2570#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tinyGadj.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/tinyGadj.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tinyGex2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/tinyGex2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -171,11 +167,14 @@
         <option value="$PROJECT_DIR$/chapter4/src/SymbolGraph.java" />
         <option value="$PROJECT_DIR$/chapter4/movies.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/DegreesOfSeparation.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/BaconHistogram.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDfS.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="715" />
+    <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="651" />
     <option name="height" value="744" />
@@ -230,20 +229,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DegreesOfSeparation">
+  <component name="RunManager" selected="Application.DegreesOfSeparationDFS">
     <configuration name="DegreesOfSeparation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DegreesOfSeparation" />
       <module name="chapter4" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt / &quot;Bacon, Kevin&quot;" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
+    <configuration name="DegreesOfSeparationDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DegreesOfSeparationDFS" />
+      <module name="chapter4" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt / &quot;Bacon, Kevin&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
     <configuration name="EdgeRemoval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EdgeRemoval" />
-      <module name="chapter4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph" />
       <module name="chapter4" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -283,19 +283,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.Graph" />
       <item itemvalue="Application.TestClient" />
       <item itemvalue="Application.EdgeRemoval" />
       <item itemvalue="Application.Graph_15" />
       <item itemvalue="Application.DegreesOfSeparation" />
+      <item itemvalue="Application.DegreesOfSeparationDFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DegreesOfSeparationDFS" />
         <item itemvalue="Application.DegreesOfSeparation" />
         <item itemvalue="Application.Graph_15" />
         <item itemvalue="Application.EdgeRemoval" />
         <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -313,18 +313,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33546326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47763577" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32970452" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32886904" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3437014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3732504" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35714287" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,20 +346,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/CC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/Cycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -586,27 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/CC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/DepthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -727,10 +697,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/BaconHistogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/BreadthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/DegreesOfSeparation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="15">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/DepthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/DegreesOfSeparationDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
