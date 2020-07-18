@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter4/src/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/questions.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +62,8 @@
       <file leaf-file-name="questions.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="400" column="2" selection-start-line="400" selection-start-column="2" selection-end-line="400" selection-end-column="2" />
+            <state relative-caret-position="456">
+              <caret line="448" lean-forward="true" selection-start-line="448" selection-end-line="448" />
             </state>
           </provider>
         </entry>
@@ -322,6 +324,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37539935" />
@@ -738,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="400" column="2" selection-start-line="400" selection-start-column="2" selection-end-line="400" selection-end-column="2" />
+        <state relative-caret-position="456">
+          <caret line="448" lean-forward="true" selection-start-line="448" selection-end-line="448" />
         </state>
       </provider>
     </entry>
