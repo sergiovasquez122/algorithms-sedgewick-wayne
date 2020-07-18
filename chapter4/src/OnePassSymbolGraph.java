@@ -19,6 +19,16 @@ public class OnePassSymbolGraph {
         }
     }
 
+    public int degree(String v){
+        if(st.contains(v)) return st.get(v).size();
+        else return 0;
+    }
+
+    public boolean hasEdge(String v, String u){
+        if(!contains(u) || !contains(v)) return false;
+        return st.get(u).contains(v);
+    }
+
     public boolean contains(String name){
         return st.contains(name);
     }
