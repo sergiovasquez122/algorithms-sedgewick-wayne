@@ -31,5 +31,19 @@ public class ImageProcessing {
             }
             StdOut.println();
         }
+        StdOut.println();
+        boolean[][] image2 = {{true, false, false, false},
+                {false, false, false, false},
+                {false, false, false, false},
+                {false, false, false, false}};
+
+        imageProcessing = new ImageProcessing(image2, 0, 0);
+        for(int i = 0;i < image2.length;++i){
+            for(int j = 0;j < image2.length;++j){
+                StdOut.print(image2[i][j] + " ");
+            }
+            StdOut.println();
+        }
+
     }
 }

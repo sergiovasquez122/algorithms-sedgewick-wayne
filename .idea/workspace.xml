@@ -62,8 +62,8 @@
       <file leaf-file-name="ImageProcessing.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/src/ImageProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -345,7 +345,7 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18388106" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970452" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007825" side_tool="true" weight="0.19345239" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
@@ -776,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/ImageProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
         </state>
       </provider>
     </entry>
