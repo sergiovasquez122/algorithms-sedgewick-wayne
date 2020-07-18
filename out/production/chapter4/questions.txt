@@ -363,6 +363,217 @@ dfs(9)                               T T T T T T T T T T T  T     F F T T F T F 
 
 the order of grow is O(|V| + |E|) since it uses dfs as its main routine.
 
+4.1.28 Two graph are isomorphic if there is a way to rename the vertices of one to make
+it identical to the other. Draw all the non-isomorphic graphs with two, three, four and
+five vertices.
+
+two vertices
+o o
+
+o-o
+
+three vertices
+o o o
+o-o o
+o-o-o
+
+    o
+   / \
+  o - o
+
+four vertices
+o o o o
+o-o o o
+o-o-o o
+o-o-o-o
+o-o o-o
+
+o-o
+| |
+o o
+
+o-o
+| |
+o-o
+
+o-o
+|\|
+o-o
+
+o-o
+|x|
+o-o
+
+  o
+  |
+o-o-o
+
+   o
+  / \
+ o - o o
+
+ o
+/ \
+o-o
+\ /
+ o
+five vertices
+o o o o o
+
+o o o o-o
+
+o o o-o-o
+
+o-o o-o o
+
+    o
+  /
+o ---o  o
+ \
+  o
+
+o-o-o
+o-o
+
+o-o-o-o
+o
+
+o o oo
+ \|//
+  o
+
+o-o
+| | o
+o-o
+
+o
+|
+o-o
+| |
+o o
+
+    o
+    |
+    o o
+   / \
+  o--o
+
+o-o-o-o-o
+
+  o
+ /|
+o |  o
+ \|  |
+  o  o
+
+o-o
+| |
+o-o
+|
+o
+
+o o
+| |
+o-o
+\ /
+ o
+
+o-o
+ \/
+o-o-o
+
+  o
+ / \
+o   o
+|   |
+o---o
+
+K5
+
+K5-e
+
+o-o
+|X|\o
+o-o/
+
+w4
+
+o-o-o
+|X|
+o-o
+
+
+  o
+ /|\
+o-o o
+ \|/
+  o
+
+  o-o
+ /| | \
+o | |  o
+ \| | /
+   o
+
+
+k3U2k1
+
+o-o
+|X| o
+o-o
+
+o    o
+|  \/|
+|  o |
+o / \|
+     o
+
+
+     o
+    /|\
+   / | \
+   | |  o
+o--o | /
+    \|/
+     o
+
+     o
+     |
+     o
+    /|\
+   o | o
+    \|/
+     o
+
+
+   o
+  / \
+ o---o
+ |   |
+ o---o
+
+    o
+   / \
+  o-o-o
+  \   /
+   \ /
+    o
+
+    o
+    |
+    o
+    |
+    o
+   / \
+  o---o
+
+  o
+ /|\
+o | o  o
+ \|/
+  o
+
+
 4.1.30 Eulerian and Hamiltonian cycles. Consider the graphs defined by the following four
 set of edges:
     0-1 0-2 0-3 1-3 1-4 2-5 2-9 3-6 4-7 4-8 5-8 5-9 6-7 6-9 7-8
@@ -372,8 +583,39 @@ set of edges:
 which of them graphs have euler cycles?
 which of them have hamilton cycles?
 
-Graph one does not contain a euler cycle, it does
-contain a hamilton cycle;
+Graph one does not contains an eulerian cycle but it
+does contains an hamilton cycle.
 
+Graph two does contain a euler cycle but it
+does not contains a hamilton cycle
+
+Graph three does not contain a euler cycle but it does contains
+but it does contains a hamilton cycle.
+
+Graph four does not contain a eulerian cycle but it does contain a hamilton
+cycle.
+
+4.1.31 How many different undirected graph are there with V
+vertices and E edges (and no parallel edges)?
+
+V  * 2^V
+
+4.1.33 Prove that a graph is bipartite if and only if it contains no odd-length
+cycle.
+
+Suppose a Graph G is bipartite. Since the graph is
+bipartite any steps takes you from the vertex set V1 to V2 or vice versa.
+From this we conclude to end up where you started you must have an even number of steps.
+Hence a bipartite graph does not contain an odd-length cycle.
+
+conversely suppose that the graph contains no odd-length cycle.
+WLOG we suppose that the Graph G is connected. Let v0 be an
+arbitrary vertex in the graph G. for every vertex v in the
+graph G color the vertex blue if it is an even distance from v0
+and red if it is an odd distance from v0. if any edge has two
+vertices of the same color it must be an edge with an odd cycle.
+But we know that the no odd cycle exists. The coloring thus parition
+the Graph into two vertex sets V1 and V2. Hence the Graph G is
+bipartite.
 
 

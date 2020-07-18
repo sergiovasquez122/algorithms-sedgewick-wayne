@@ -17,7 +17,7 @@ public class PathFinder {
             String curr = queue.dequeue();
 
             for(String w : G.adjTo(curr)){
-                if(!parent.contains(w)){
+                if(!dist.contains(w)){
                     parent.put(w, curr);
                     dist.put(w, dist.get(curr) + 1);
                     queue.enqueue(w);
@@ -30,9 +30,13 @@ public class PathFinder {
         return dist.get(v);
     }
 
+    public boolean hasPathTo(String v){
+        return parent.contains(v);
+    }
+
     public Iterable<String> pathTo(String v){
         Stack<String> path = new Stack<>();
-        while(v != null & dist.contains(v)){
+        while(v != null && dist.contains(v)){
             path.push(v);
             v = parent.get(v);
         }
