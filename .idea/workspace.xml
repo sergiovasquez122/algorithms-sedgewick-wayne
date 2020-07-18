@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter4/src/UFSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/src/UFSearch.java" afterDir="false" />
-    </list>
+    <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HamiltonCycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/HamiltonCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DegreeOfSeparationExpanded.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/DegreeOfSeparationExpanded.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,16 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UFSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UFSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/UFSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="60">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
               </folding>
             </state>
@@ -84,10 +71,9 @@
       <file leaf-file-name="OnePassSymbolGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/OnePassSymbolGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-715">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
                 <element signature="e#844#845#0" expanded="true" />
                 <element signature="e#884#885#0" expanded="true" />
@@ -100,14 +86,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ParallelEdgeDetection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PathFinder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/src/PathFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="247">
+              <caret line="28" column="35" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieGraphAnalyzed.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter4/src/MovieGraphAnalyzed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -119,26 +123,6 @@
               <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymbolGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/SymbolGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,14 +182,15 @@
         <option value="$PROJECT_DIR$/chapter4/src/questions.txt" />
         <option value="$PROJECT_DIR$/chapter4/src/ImageProcessing.java" />
         <option value="$PROJECT_DIR$/chapter4/src/UFSearch.java" />
+        <option value="$PROJECT_DIR$/chapter4/src/MovieGraphAnalyzed.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="715" />
-    <option name="y" value="24" />
-    <option name="width" value="651" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -257,15 +242,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageProcessing">
+  <component name="RunManager" selected="Application.MovieGraphAnalyzed">
     <configuration name="BaconHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaconHistogram" />
-      <module name="chapter4" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt / &quot;Bacon, Kevin&quot;" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DegreesOfSeparationDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DegreesOfSeparationDFS" />
       <module name="chapter4" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt / &quot;Bacon, Kevin&quot;" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -279,6 +258,12 @@
       <option name="MAIN_CLASS_NAME" value="ImageProcessing" />
       <module name="chapter4" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MovieGraphAnalyzed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieGraphAnalyzed" />
+      <module name="chapter4" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt /" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="OnePassSymbolGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OnePassSymbolGraph" />
@@ -310,19 +295,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.DegreesOfSeparationDFS" />
       <item itemvalue="Application.BaconHistogram" />
       <item itemvalue="Application.EulerianCycle" />
       <item itemvalue="Application.OnePassSymbolGraph" />
       <item itemvalue="Application.ImageProcessing" />
+      <item itemvalue="Application.MovieGraphAnalyzed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieGraphAnalyzed" />
         <item itemvalue="Application.ImageProcessing" />
         <item itemvalue="Application.OnePassSymbolGraph" />
         <item itemvalue="Application.EulerianCycle" />
         <item itemvalue="Application.BaconHistogram" />
-        <item itemvalue="Application.DegreesOfSeparationDFS" />
       </list>
     </recent_temporary>
   </component>
@@ -340,18 +325,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37539935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18388106" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007825" side_tool="true" weight="0.19345239" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" weight="0.33035713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49921754" visible="true" weight="0.2021773" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49921754" visible="true" weight="0.19345239" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24875621" />
@@ -387,13 +372,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter4/src/TwoColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
@@ -596,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/TwoColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -713,33 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/OnePassSymbolGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/PathFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/questions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -754,6 +698,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/UFSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/src/EuclideanGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -761,17 +720,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/src/UFSearch.java">
+    <entry file="file://$PROJECT_DIR$/chapter4/src/OnePassSymbolGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-715">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/ParallelEdgeDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/PathFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="35" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/src/MovieGraphAnalyzed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
