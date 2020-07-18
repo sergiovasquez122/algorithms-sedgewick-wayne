@@ -419,10 +419,27 @@ o-o
  o
 five vertices
 o o o o o
-o-o o o o
-o-o-o o o
-o-o-o-o o
-o-o-o-o-o
+
+o o o o-o
+
+o o o-o-o
+
+o-o o-o o
+
+    o
+  /
+o ---o  o
+ \
+  o
+
+o-o-o
+o-o
+
+o-o-o-o
+
+o
+
+
 
 
 4.1.30 Eulerian and Hamiltonian cycles. Consider the graphs defined by the following four
