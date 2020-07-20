@@ -6,6 +6,21 @@ accessed for each input pair when you use quick-find for the sequence
 p q 0 1 2 3 4 5 6 7 8 9
 ------------------------
 9 0 0 1 2 3 4 5 6 7 8 9
+    0 1 2 3 4 5 6 7 8 0
+3 4 0 1 2 3 4 5 6 7 8 0
+    0 1 2 4 4 5 6 7 8 0
+5 8 0 1 2 4 4 5 6 7 8 0
+    0 1 2 4 4 8 6 7 8 0
+7 2 0 1 2 4 4 8 6 7 8 0
+    0 1 2 4 4 8 6 2 8 0
+2 1 0 1 2 4 4 8 6 2 8 0
+    0 1 1 4 4 8 6 1 8 0
+5 7 0 1 1 4 4 8 6 1 8 0
+    0 1 1 4 4 1 6 1 1 0
+0 3 0 1 1 4 4 1 6 1 1 0
+    4 1 1 4 4 1 6 1 1 4
+4 2 4 1 1 4 4 1 6 1 1 4
+    1 1 1 1 1 1 6 1 1 1
 1.5.2 Do exercise 1.5.1 but use quick-union. In addition, draw the forest
 of trees represented by the id[] array after each input pair is processed.
 
