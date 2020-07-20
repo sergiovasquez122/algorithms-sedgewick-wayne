@@ -115,6 +115,36 @@ forest
    | |
    7 5
 
+query 0-3
+
+
+        0 1 2 3 4 5 6 7 8 9
+array = 4 1 1 4 4 8 6 2 1 0
+
+forest
+
+  1    4  6
+  |\   |\
+  2 8  3 0
+  | |    |
+  7 5    9
+
+query 4-2
+
+
+        0 1 2 3 4 5 6 7 8 9
+array = 4 1 1 4 1 8 6 2 1 0
+
+forest
+
+  1---
+  |   \
+  2   4  6
+  |\   |\
+  7 5  3 0
+         |
+         9
+
 1.5.3 Do exercise 1.5.1, but use weighted quick-union
 
 1.5.4 show the contents of the sz[] and id[] arrays and the number of array accesses
