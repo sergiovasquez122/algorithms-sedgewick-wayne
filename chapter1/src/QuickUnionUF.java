@@ -1,11 +1,11 @@
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class QuickUnion {
+public class QuickUnionUF {
     private int[] id;
     private int count;
 
-    public QuickUnion(int N){
+    public QuickUnionUF(int N){
         count = N;
         id = new int[N];
         for(int i = 0;i < N;++i)
@@ -36,14 +36,14 @@ public class QuickUnion {
 
     public static void main(String[] args) {
         int N = StdIn.readInt();
-        QuickUnion quickUnion = new QuickUnion(N);
+        QuickUnionUF quickUnionUF = new QuickUnionUF(N);
         while(!StdIn.isEmpty()){
             int p = StdIn.readInt();
             int q = StdIn.readInt();
-            if(quickUnion.connected(p, q)) continue;
-            quickUnion.union(p, q);
+            if(quickUnionUF.connected(p, q)) continue;
+            quickUnionUF.union(p, q);
             StdOut.println(p + " " + q);
         }
-        StdOut.println(quickUnion.count + " components");
+        StdOut.println(quickUnionUF.count + " components");
     }
 }
