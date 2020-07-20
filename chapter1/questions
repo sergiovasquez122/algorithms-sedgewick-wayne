@@ -1,0 +1,32 @@
+1.5.1 Show the content of the id[] array and the number of times the array is
+accessed for each input pair when you use quick-find for the sequence
+9-0 3-4 5-8 7-2 2-1 5-7 0-3 4-2
+
+1.5.2 Do exercise 1.5.1 but use quick-union. In addition, draw the forest
+of trees represented by the id[] array after each input pair is processed.
+
+1.5.3 Do exercise 1.5.1, but use weighted quick-union
+
+1.5.4 show the contents of the sz[] and id[] arrays and the number of array accesses
+for each input pair corresponding to the weighted quick-union examples in the text
+
+1.5.5 estimate the minimum amount of time that would be required for quick-find
+to solve a dynamic connectivity problem with 10^9 sites and 10^6 input pairs,
+on a computer capable of executing 10^9 instructions per second. Assume that each iteration
+of the inner for loop requires 10 machine instructions.
+
+1.5.6 repeat exercise 1.5.5 for weighted quick-union
+
+1.5.8 Give a counter example that shows why this intuitive implementation of
+union() for quick-find is not correct
+
+public void union(int p, int q)
+{
+if (connected(p, q)) return;
+// Rename p’s component to q’s name.
+for (int i = 0; i < id.length; i++)
+if (id[i] == id[p]) id[i] = id[q];
+count--;
+}
+
+
