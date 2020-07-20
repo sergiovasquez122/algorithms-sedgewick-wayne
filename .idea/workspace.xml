@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter1/questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/src/QuickFindUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/src/QuickFindUF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,12 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickFindUF.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuickFindUF.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="431">
+              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions" pinned="false" current-in-tab="true">
+      <file leaf-file-name="questions" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/questions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -185,10 +185,10 @@
         <option value="$PROJECT_DIR$/chapter1/src/UF.java" />
         <option value="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java" />
         <option value="$PROJECT_DIR$/chapter1/src/QuickFind.java" />
-        <option value="$PROJECT_DIR$/chapter1/src/QuickFindUF.java" />
         <option value="$PROJECT_DIR$/chapter1/src/QuickUnion.java" />
         <option value="$PROJECT_DIR$/chapter1/src/QuickUnionUF.java" />
         <option value="$PROJECT_DIR$/chapter1/questions" />
+        <option value="$PROJECT_DIR$/chapter1/src/QuickFindUF.java" />
       </list>
     </option>
   </component>
@@ -266,12 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickUnionUF">
-    <configuration name="EulerianCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EulerianCycle" />
-      <module name="chapter4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.QuickFindUF">
     <configuration name="ImageProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImageProcessing" />
       <module name="chapter4" />
@@ -288,6 +283,11 @@
       <module name="chapter4" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt / &quot;Bacon, Kevin&quot;" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="QuickFindUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickFindUF" />
+      <module name="chapter1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="QuickUnionUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickUnionUF" />
@@ -318,19 +318,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.EulerianCycle" />
       <item itemvalue="Application.OnePassSymbolGraph" />
       <item itemvalue="Application.ImageProcessing" />
       <item itemvalue="Application.MovieGraphAnalyzed" />
       <item itemvalue="Application.QuickUnionUF" />
+      <item itemvalue="Application.QuickFindUF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickFindUF" />
         <item itemvalue="Application.QuickUnionUF" />
         <item itemvalue="Application.MovieGraphAnalyzed" />
         <item itemvalue="Application.ImageProcessing" />
         <item itemvalue="Application.OnePassSymbolGraph" />
-        <item itemvalue="Application.EulerianCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -736,19 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -761,8 +748,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/questions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
