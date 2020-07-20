@@ -75,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickFindUF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickFindUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
@@ -96,7 +96,7 @@
       <file leaf-file-name="QuickUnionUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="341">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions" pinned="false" current-in-tab="false">
+      <file leaf-file-name="questions" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter1/questions">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="272" selection-start-line="272" selection-end-line="272" />
+              <caret line="263" lean-forward="true" selection-start-line="263" selection-end-line="263" />
             </state>
           </provider>
         </entry>
@@ -117,8 +117,8 @@
       <file leaf-file-name="WeightedQuickUnionUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#340#341#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
@@ -197,7 +197,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="661" />
+    <option name="width" value="651" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -350,11 +350,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="661" height="744" extended-state="4" />
+    <frame x="65" y="24" width="651" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36949685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37539935" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -720,17 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/tinyUF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -738,20 +727,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionUF.java">
+    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/questions">
+    <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        <state relative-caret-position="341">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -768,6 +761,13 @@
             <element signature="e#361#362#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="263" lean-forward="true" selection-start-line="263" selection-end-line="263" />
         </state>
       </provider>
     </entry>

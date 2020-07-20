@@ -261,6 +261,55 @@ forest
 1.5.4 show the contents of the sz[] and id[] arrays and the number of array accesses
 for each input pair corresponding to the weighted quick-union examples in the text
 
+
+        0 1 2 3 4 5 6 7
+array = 0 1 2 3 4 5 6 7
+
+query 0 1
+
+        0 1 2 3 4 5 6 7
+array = 0 0 2 3 4 5 6 7
+
+query 2 3
+
+        0 1 2 3 4 5 6 7
+array = 0 0 2 2 4 5 6 7
+
+
+query 4 5
+
+        0 1 2 3 4 5 6 7
+array = 0 0 2 2 4 4 6 7
+
+
+query 6 7
+
+        0 1 2 3 4 5 6 7
+array = 0 0 2 2 4 4 6 6
+
+query 6 7
+
+        0 1 2 3 4 5 6 7
+array = 0 0 2 2 4 4 6 6
+
+
+query 0 2
+
+        0 1 2 3 4 5 6 7
+array = 0 0 0 2 4 4 6 6
+
+
+query 4 6
+
+        0 1 2 3 4 5 6 7
+array = 0 0 0 2 4 4 4 6
+
+
+query 0 4
+
+        0 1 2 3 4 5 6 7
+array = 0 0 0 2 0 4 4 6
+
 1.5.5 estimate the minimum amount of time that would be required for quick-find
 to solve a dynamic connectivity problem with 10^9 sites and 10^6 input pairs,
 on a computer capable of executing 10^9 instructions per second. Assume that each iteration
