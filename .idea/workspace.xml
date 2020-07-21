@@ -197,11 +197,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="651" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="302" />
+    <option name="y" value="148" />
+    <option name="width" value="653" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -271,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickFindUF">
+  <component name="RunManager" selected="Application.QuickUnionPathCompressionUF">
     <configuration name="ImageProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImageProcessing" />
       <module name="chapter4" />
@@ -283,14 +283,13 @@
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt /" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="OnePassSymbolGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnePassSymbolGraph" />
-      <module name="chapter4" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/chapter4/movies.txt / &quot;Bacon, Kevin&quot;" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
     <configuration name="QuickFindUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickFindUF" />
+      <module name="chapter1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="QuickUnionPathCompressionUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickUnionPathCompressionUF" />
       <module name="chapter1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -323,19 +322,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.OnePassSymbolGraph" />
       <item itemvalue="Application.ImageProcessing" />
       <item itemvalue="Application.MovieGraphAnalyzed" />
       <item itemvalue="Application.QuickUnionUF" />
       <item itemvalue="Application.QuickFindUF" />
+      <item itemvalue="Application.QuickUnionPathCompressionUF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickUnionPathCompressionUF" />
         <item itemvalue="Application.QuickFindUF" />
         <item itemvalue="Application.QuickUnionUF" />
         <item itemvalue="Application.MovieGraphAnalyzed" />
         <item itemvalue="Application.ImageProcessing" />
-        <item itemvalue="Application.OnePassSymbolGraph" />
       </list>
     </recent_temporary>
   </component>

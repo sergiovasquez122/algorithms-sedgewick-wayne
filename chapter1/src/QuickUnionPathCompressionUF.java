@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdOut;
+
 public class QuickUnionPathCompressionUF {
     private int[] id;
     private int count;
@@ -32,5 +34,15 @@ public class QuickUnionPathCompressionUF {
         id[pRoot] = qRoot;
         count--;
 
+    }
+
+    public static void main(String[] args) {
+        QuickUnionPathCompressionUF UF = new QuickUnionPathCompressionUF(10);
+        UF.union(0, 1);
+        UF.union(2, 3);
+        UF.union(3, 4);
+        UF.union(2, 4);
+
+        StdOut.println("Components: " + UF.count + " expected: 7");
     }
 }
