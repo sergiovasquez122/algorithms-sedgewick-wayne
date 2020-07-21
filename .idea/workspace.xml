@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/src/ErdosRenyi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionByHeightUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionByHeightUF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,28 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/CC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IterativeCC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/src/IterativeCC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tinyUF" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/tinyUF">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeightedQuickUnionPathCompressionUF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeightedQuickUnionPathCompressionUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="390">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding>
                 <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#375#376#0" expanded="true" />
@@ -122,11 +102,36 @@
       <file leaf-file-name="WeightedQuickUnionUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state>
               <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#340#341#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeightedQuickUnionByHeightUF.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionByHeightUF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErdosRenyi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,6 +204,8 @@
         <option value="$PROJECT_DIR$/chapter1/src/WeightedQuickFindUF.java" />
         <option value="$PROJECT_DIR$/chapter1/src/QuickUnionPathCompressionUF.java" />
         <option value="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java" />
+        <option value="$PROJECT_DIR$/chapter1/src/WeightedQuickUnionByHeightUF.java" />
+        <option value="$PROJECT_DIR$/chapter1/src/ErdosRenyi.java" />
       </list>
     </option>
   </component>
@@ -404,20 +411,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/NoSuchElementException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/src/AVLTreeST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4095">
-          <caret line="273" column="38" lean-forward="true" selection-start-line="273" selection-start-column="38" selection-end-line="287" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
@@ -746,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionPathCompressionUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -764,9 +750,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state>
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#340#341#0" expanded="true" />
@@ -775,13 +772,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java">
+    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickFindUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionByHeightUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
