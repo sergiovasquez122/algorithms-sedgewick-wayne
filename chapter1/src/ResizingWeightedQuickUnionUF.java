@@ -1,10 +1,12 @@
 public class ResizingWeightedQuickUnionUF {
     private int[] id;
     private int[] sz;
+    private int N;
     private int count;
 
     public ResizingWeightedQuickUnionUF(int N){
         count = N;
+        this.N = N;
         id = new int[N];
         for(int i = 0;i < N; i++) id[i] = i;
         sz = new int[N];
@@ -18,6 +20,21 @@ public class ResizingWeightedQuickUnionUF {
     private int find(int p){
         while(p != id[p]) p = id[p];
         return p;
+    }
+
+    public int newSite(){
+        int[] tempid = new int[N + 1];
+        int[] tempsize = new int[N + 1];
+        for(int i = 0;i < N;++i){
+            tempid[i] = id[i];
+            tempsize[i] = sz[i];
+        }
+        id = tempid;
+        sz = tempsize;
+        tempid[N] = N;
+        tempsize[N] = 1;
+        N = N + 1;
+        return N;
     }
 
     public void union(int p, int q){
