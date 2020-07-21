@@ -1,7 +1,7 @@
 import edu.princeton.cs.algs4.StdOut;
 
 public class RandomGrid {
-    private static class Connection {
+    public static class Connection {
         int p;
         int q;
         public Connection(int p, int q){
