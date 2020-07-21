@@ -458,3 +458,8 @@ No this is not possible. to see why we note that height
 of the tree is 4. but a tree with 10 elements is at most
 log(10) which is 3 hence this is not possible.
 
+1.5.10 In the weighted quick-union algorithm suppose that we set id[find(p)] to q
+instead of to id[find(q)]. would the resulting algorithm be correct?
+
+it would but it would increase the height thus invalidating the
+performance guarantee of the weighted quick-union

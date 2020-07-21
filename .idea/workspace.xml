@@ -106,8 +106,8 @@
       <file leaf-file-name="questions" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter1/questions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
+            <state relative-caret-position="218">
+              <caret line="419" column="26" selection-start-line="419" selection-start-column="26" selection-end-line="419" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -349,6 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37539935" />
@@ -763,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/questions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
+        <state relative-caret-position="218">
+          <caret line="419" column="26" selection-start-line="419" selection-start-column="26" selection-end-line="419" selection-end-column="26" />
         </state>
       </provider>
     </entry>
