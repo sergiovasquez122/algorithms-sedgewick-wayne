@@ -24,6 +24,6 @@ public class ErdosRenyiModel {
             edges[t] = count(N);
         StdOut.println("1/2*n*lnn = " + 0.5 * N * Math.log(N));
         StdOut.println("Mean = " + StdStats.mean(edges));
-        StdOut.println("Stddev = " + StdStats.mean(edges));
+        StdOut.println("Stddev = " + StdStats.stddev(edges));
     }
 }
