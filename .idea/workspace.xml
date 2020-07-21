@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff990f7-385b-499a-b5e3-f22191f619d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter1/src/Animation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter1/src/ResizingWeightedQuickUnionUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/src/ErdosRenyiModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/src/RandomGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/src/RandomGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter1/RandomGrid$Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter1/RandomGrid$Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter1/RandomGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter1/RandomGrid.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +24,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickUnionPathCompressionUF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionPathCompressionUF.java">
+      <file leaf-file-name="QuickFindUF.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightedQuickUnionPathCompressionUF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionPathCompressionUF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            <state relative-caret-position="456">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,7 +39,7 @@
       <file leaf-file-name="WeightedQuickUnionUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state>
               <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#332#333#0" expanded="true" />
@@ -71,8 +61,8 @@
       <file leaf-file-name="ErdosRenyi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +79,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResizingWeightedQuickUnionUF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResizingWeightedQuickUnionUF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter1/src/ResizingWeightedQuickUnionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="375">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+              <folding>
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErdosRenyiModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyiModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter3/src/AVLTreeST.java" />
-        <option value="$PROJECT_DIR$/chapter4/src/DepthFirstSearch.java" />
         <option value="$PROJECT_DIR$/chapter4/src/DepthFirstPaths.java" />
         <option value="$PROJECT_DIR$/chapter4/src/CC.java" />
         <option value="$PROJECT_DIR$/chapter4/src/Cycle.java" />
@@ -206,14 +210,16 @@
         <option value="$PROJECT_DIR$/chapter1/src/RandomizedQueue.java" />
         <option value="$PROJECT_DIR$/chapter1/src/RandomGrid.java" />
         <option value="$PROJECT_DIR$/chapter1/src/Animation.java" />
+        <option value="$PROJECT_DIR$/chapter1/src/ResizingWeightedQuickUnionUF.java" />
+        <option value="$PROJECT_DIR$/chapter1/src/ErdosRenyiModel.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="651" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="326" />
+    <option name="y" value="217" />
+    <option name="width" value="653" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -283,11 +289,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Animation">
+  <component name="RunManager" selected="Application.ErdosRenyiModel">
     <configuration name="Animation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animation" />
       <module name="chapter1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ErdosRenyiModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ErdosRenyiModel" />
+      <module name="chapter1" />
+      <option name="PROGRAM_PARAMETERS" value="100 1000000" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="QuickFindUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickFindUF" />
@@ -296,11 +308,6 @@
     </configuration>
     <configuration name="QuickUnionPathCompressionUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickUnionPathCompressionUF" />
-      <module name="chapter1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="QuickUnionUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickUnionUF" />
       <module name="chapter1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -334,19 +341,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.QuickUnionUF" />
       <item itemvalue="Application.QuickFindUF" />
       <item itemvalue="Application.QuickUnionPathCompressionUF" />
       <item itemvalue="Application.RandomGrid" />
       <item itemvalue="Application.Animation" />
+      <item itemvalue="Application.ErdosRenyiModel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ErdosRenyiModel" />
         <item itemvalue="Application.Animation" />
         <item itemvalue="Application.RandomGrid" />
         <item itemvalue="Application.QuickUnionPathCompressionUF" />
         <item itemvalue="Application.QuickFindUF" />
-        <item itemvalue="Application.QuickUnionUF" />
       </list>
     </recent_temporary>
   </component>
@@ -368,15 +375,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37539935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37539935" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32886904" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007825" side_tool="true" weight="0.19345239" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" weight="0.3281493" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49921754" visible="true" weight="0.3281493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49921754" visible="true" weight="0.2021773" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49921754" weight="0.2021773" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24875621" />
@@ -411,7 +418,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter4/src/questions.md" />
     <entry file="file://$PROJECT_DIR$/chapter4/src/Questions.md" />
     <entry file="file://$PROJECT_DIR$/chapter4/src/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -675,16 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/src/QuickUnionPathCompressionUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -699,38 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionByHeightUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,10 +744,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter1/src/ResizingWeightedQuickUnionUF.java">
+    <entry file="file://$PROJECT_DIR$/chapter1/src/QuickFindUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickFindUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/WeightedQuickUnionUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/ResizingWeightedQuickUnionUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter1/src/ErdosRenyiModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
