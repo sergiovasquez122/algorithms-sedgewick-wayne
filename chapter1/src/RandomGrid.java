@@ -8,5 +8,12 @@ public class RandomGrid {
         }
     }
 
+    public void generate(int N){
+        
+    }
 
+    public static void main(String[] args) {
+        int N = Integer.parseInt(args[0]);
+
+    }
 }
