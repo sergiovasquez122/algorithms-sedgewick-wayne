@@ -14,7 +14,14 @@ public class QuickUnionPathCompressionUF {
     }
 
     private int find(int p){
-        while(p != id[p]) p = id[p];
+        int root = p;
+        while(root != id[root])
+            root = id[root];
+        while(p != root){
+            int newP = id[p];
+            id[p] = root;
+            p = newP;
+        }
         return p;
     }
 
@@ -22,7 +29,6 @@ public class QuickUnionPathCompressionUF {
         int pRoot = find(p);
         int qRoot = find(q);
         if(pRoot == qRoot) return;
-
         id[pRoot] = qRoot;
         count--;
 
