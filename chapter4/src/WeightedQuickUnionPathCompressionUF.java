@@ -15,6 +15,10 @@ public class WeightedQuickUnionPathCompressionUF {
         return count;
     }
 
+    public boolean connected(int p, int q){
+        return find(p) == find(q);
+    }
+
     private int find(int p){
         int root = p;
         while(root != id[root])

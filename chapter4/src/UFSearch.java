@@ -1,13 +1,12 @@
 import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class UFSearch {
 
-    private WeightedQuickUnionUF UF;
+    private WeightedQuickUnionPathCompressionUF UF;
     private int s;
     public UFSearch(Graph G, int s)
     {
-        UF = new WeightedQuickUnionUF(G.V());
+        UF = new WeightedQuickUnionPathCompressionUF(G.V());
         this.s = s;
         for(int i = 0;i < G.V();++i){
             for(int w : G.adj(i)){
@@ -21,7 +20,7 @@ public class UFSearch {
     }
 
     int count(){
-        return 0;
+        return UF.count(s);
     }
 
     public static void main(String[] args) {
@@ -33,6 +32,7 @@ public class UFSearch {
         G.addEdge(2,3);
 
         UFSearch ufSearch = new UFSearch(G, 1);
+        StdOut.println("Count: " + ufSearch.count() + " expected: 4");
         StdOut.println("Connected to 0: " + ufSearch.marked(0) + " expected: true");
         StdOut.println("Connected to 1: " + ufSearch.marked(1) + " expected: true");
         StdOut.println("Connected to 2: " + ufSearch.marked(1) + " expected: true");
