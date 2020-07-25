@@ -8,6 +8,12 @@ public class DirectedDFS {
         dfs(G, s);
     }
 
+    public DirectedDFS(Digraph G, Iterable<Integer> sources){
+        marked = new boolean[G.V()];
+        for(int s : sources)
+            if(!marked[s]) dfs(G, s);
+    }
+
     public void dfs(Digraph G, int v){
         marked[v] = true;
         for(int w : G.adj(v))
