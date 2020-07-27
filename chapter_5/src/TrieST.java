@@ -32,6 +32,24 @@ public class TrieST<Value> {
             collect(x.next[c], pre + c, q);
     }
 
+    public Iterable<String> keysThatMatch(String pat){
+        Queue<String> q = new Queue<>();
+        collect(root, "", pat, q);
+        return q;
+    }
+
+    private void collect(Node x, String pre, String pat, Queue<String> q){
+        int d = pre.length();
+        if(x == null) return;
+        if(d == pat.length() && x.val != null) q.enqueue(pre);
+        if(d == pat.length()) return;
+
+        char next = pat.charAt(d);
+        for(char c = 0;c < R;c++)
+            if(next == '.' || next == c)
+                collect(x.next[c], pre + c, pat, q);
+    }
+
 
     private Node get(Node x, String key, int d){
         if(x == null) return null;
