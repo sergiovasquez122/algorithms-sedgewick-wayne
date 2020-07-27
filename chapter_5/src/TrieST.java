@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.Queue;
+
 public class TrieST<Value> {
     private static int R = 256;
     private Node root;
@@ -12,6 +14,14 @@ public class TrieST<Value> {
         if(x == null) return null;
         return (Value) x.val;
     }
+
+    private void collect(Node x, String pre, Queue<String> q){
+        if(x == null) return;
+        if(x.val != null) q.enqueue(pre);
+        for(char c = 0;c < R;c++)
+            collect(x.next[c], pre + c, q);
+    }
+
 
     private Node get(Node x, String key, int d){
         if(x == null) return null;
