@@ -60,8 +60,8 @@
       <file leaf-file-name="TrieST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter_5/src/TrieST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="450">
+              <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
               <folding>
                 <element signature="e#412#413#0" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
@@ -199,7 +199,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="651" />
+    <option name="width" value="655" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -339,10 +339,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <frame x="65" y="24" width="655" height="744" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38178915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3793651" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007825" side_tool="true" weight="0.19345239" />
@@ -744,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_5/src/TrieST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="450">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
           <folding>
             <element signature="e#412#413#0" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />
